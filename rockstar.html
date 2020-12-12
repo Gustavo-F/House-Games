@@ -12,17 +12,118 @@
                 text-transform: uppercase;
                 font-weight: bold;
             }
+            img#logo{
+                position: relative;
+                width: 97.7vw;
+            }
+            table, th, td {
+                border: solid 1px black;
+                border-collapse: collapse;
+                padding: 10px;
+            }
+            th {
+                text-align: center
+            }
+            td {
+                text-align: center;
+            }
+            tbody#destaque:hover, tr:hover {
+                background-color: #ccc;
+            }
         </style>
     </head>
     <body>
         <header>
-            <h1> HEADER </h1>
+            <h1 id="top"> Rockstar Games </h1>
+            <p>
+                <a target="_self" href="index.html">
+                    Voltar para a página inicial
+                </a>
+            </p>
         </header>
 
         <main>
+            <img id="logo" src="img/rockstargames.jpg" title="Logo Rockstar Games" alt="Fundo amarelo com um a letra R centralizada e uma estrela em seu canto inferior direito." width="1280" height="720" />
+            <p>
+                <a href="#studios"> Ver estúdios </a>
+            </p>
+            <p>
+                Fundada em 1994 por Dan Houser, Sam Houser, Terry Donovan, Garry Foreman e Jamie King, a Rockstar Games é uma desenvolvedora e publicadora de jogos eletrônicos. Ficou conhecida por criar grandes franquias com Grand Theft Auto, Red Dead, Bully, entre outros.
+                <br />
+                <br />
+                Apesar de ser sediada em New York (<i>Nova Iorque</i>), a empresa possui diversos estudios espalhados pelo mundo, sendo eles:
+            </p>
+            <table id="studios">
+                <tr>
+                    <th> Nome </th>
+                    <th> Localização </th>
+                    <th> Anos de atuação </th>
+                </tr>
+                <tr>
+                    <td> Rockstar Dundee </td>
+                    <td> Dundee, Escócia </td>
+                    <td> 2020 - presente </td>
+                </tr>
+                <tr>
+                    <td> Rockstar India </td>
+                    <td> Bangalore, Índia </td>
+                    <td> 2016 - presente </td>
+                </tr>
+                <tr>
+                    <td> Rockstar Leeds </td>
+                    <td> Leeds, Inglaterra </td>
+                    <td> 2004 - presente </td>
+                </tr>
+                <tr>
+                    <td> Rockstar Lincoln </td>
+                    <td> Lincoln, Inglaterra </td>
+                    <td> 1999 - presente </td>
+                </tr>
+                <tr>
+                    <td> Rockstar London </td>
+                    <td> Londres, Inglaterra </td>
+                    <td> 2005 - presente </td>
+                </tr>
+                <tr>
+                    <td> Rockstar New England </td>
+                    <td> Ballardvale, Estados Unidos </td>
+                    <td> 2008 - presente </td>
+                </tr>
+                <tr>
+                    <td> Rockstar North </td>
+                    <td> Edimburgo, Escócia </td>
+                    <td> 2002 - presente </td>
+                </tr>
+                <tr>
+                    <td> Rockstar San Diego </td>
+                    <td> Carlsbad, Califórnia </td>
+                    <td> 2003 - presente </td>
+                </tr>
+                <tr>
+                    <td> Rockstar Toronto </td>
+                    <td> Oakville, Canadá </td>
+                    <td> 1999 - presente </td>
+                </tr>
+                <tr>
+                    <td> Rockstar Vancouver </td>
+                    <td> Vancouver, Canadá </td>
+                    <td> 2002 - 2012 </td>
+                </tr>
+                <tr>
+                    <td> Rockstar Vienna </td>
+                    <td> Vienna, Áustria </td>
+                    <td> 2003 - 2006 </td>
+                </tr>
+            </table>
 
+            <p>
+                Fonte:
+                <a target="_blank" href="https://pt.wikipedia.org/wiki/Rockstar_Games"> https://pt.wikipedia.org/wiki/Rockstar_Games </a>
+                <br />
+                <br />
+                <a href="#top"> Voltar ao topo </a>
+            </p>
         </main>
-
         <footer> Desenvolvido por: Gustavo Ferreira </footer>
     </body>
 </html>
