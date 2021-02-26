@@ -1,81 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8" />
-        <title> Mais Jogados </title>
-        <link rel="icon" href="img/controller.ico" />
-        <style>
-            header, footer {
-                background-color: grey;
-                color: white;
-                padding: 15px;
-                text-transform: uppercase;
-                font-weight: bold;
-            }
-            table, th, td {
-                border: solid 1px black;
-                border-collapse: collapse;
-                padding: 10px;
-            }
-            th {
-                text-align: center
-            }
-            td {
-                text-align: center;
-            }
-            p{
-                width: 600px;
-            }
-            tbody#destaque:hover, tr:hover {
-                background-color: #ccc;
-            }
-       </style>
-    </head>
+	<head>
+		<meta charset="utf-8" />
+		<title> Mais Jogados - HOUSE GAMES </title>
+		<link rel="icon" href="img/controller.ico" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<header class="top-header">
+			<h1> MAIS JOGADOS </h1>
+		</header>
 
-    <body>
-        <header>
-            <h1 id="top"> Os mais jogados da atualidade </h1>
-            <p>
-                <a target="_self" href="index.html" >
-                    Voltar para a página inicial
-                 </a>
-            </p>
-        </header>
+		<div>
+			<nav class="top-nav">
+				<a href="index.html"> Inicio </a>
+				<a href="principais-generos.html"> Principais Gêneros </a>
+				<a class="active" href="mais-jogados.html"> Mais Jogados </a>
+				<a href="sobre.html"> Sobre </a>
+			</nav>
+		</div>
 
-        <main>
-            <p>
+		<main>
+			<div>
+				<table class="table-style">
+					<tr>
+            <th> Jogo </th>
+            <th> Número de Jogadores </th>
+          </tr>
+          <tr>
+            <td> Fortnite </td>
+            <td> 250 milhões de jogadores ativos </td>
+          </tr>
+          <tr>
+            <td> Minecraft </td>
+            <td> 112 milhões de jogadores registrados </td>
+          </tr>
+          <tr>
+            <td> Free Fire </td>
+            <td> 50 milhões de jogadores ativos </td>
+          </tr>
+          <tr>
+            <td> Call of Duty: Warzone </td>
+            <td> 50 milhões de jogadores registrados </td>
+          </tr>
+          <tr>
+            <td> League of Legends </td>
+            <td> 8 milhões de jogadores simultâneos </td>
+          </tr>
+				</table>
+			</div>
+		</main>
 
-            </p>
-
-            <table>
-                <tr>
-                    <th> Jogo </th>
-                    <th> Número de Jogadores </th>
-                </tr>
-                <tr>
-                    <td> Fortnite </td>
-                    <td> 250 milhões de jogadores ativos </td>
-                </tr>
-                <tr>
-                    <td> Minecraft </td>
-                    <td> 112 milhões de jogadores registrados </td>
-                </tr>
-                <tr>
-                    <td> Free Fire </td>
-                    <td> 50 milhões de jogadores ativos </td>
-                </tr>
-                <tr>
-                    <td> Call of Duty: Warzone </td>
-                    <td> 50 milhões de jogadores registrados </td>
-                </tr>
-                <tr>
-                    <td> League of Legends </td>
-                    <td> 8 milhões de jogadores simultâneos </td>
-                </tr>
-            </table>
-            <br />
-        </main>
-
-        <footer> Desenvolvido por: Gustavo Ferreira </footer>
-    </body>
+		<footer>
+			Desenvolvido por: Gustavo Ferreira
+		</footer>
+	</body>
 </html>
