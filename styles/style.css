@@ -1,0 +1,33 @@
+body{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-size: 18px;
+	font-family: 'Shippori Mincho', serif;
+	text-align: justify;
+}
+
+footer{
+	background-color: #D3D3D3;
+	color: black;
+	padding: 5px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+header{
+	background-color: #D3D3D3;
+	color: black;
+	padding: 2%;
+	text-align: center;
+}
+
+.card-link{
+	color: gray;
+	text-decoration: none;
+}
+
+.card-link div:hover{
+	color: white;
+}
